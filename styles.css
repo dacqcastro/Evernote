@@ -4,6 +4,12 @@
   font-family: 'Kanit', sans-serif;
 }
 
+body {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+}
+
 .logo {
   width: 160px;
   height: 33px;
@@ -22,6 +28,7 @@ header {
   padding: 0 60px;
   box-sizing: border-box;
   border-bottom: 1px solid #eee;
+  z-index: 999;
 }
 
 header .logo {
@@ -36,6 +43,7 @@ header nav ul li {
   margin-left: 30px;
   font-size: 13px;
   letter-spacing: 1.5px;
+  font-weight: 300;
 }
 
 header nav ul li:first-child {
@@ -80,3 +88,128 @@ header .utility-nav .business-btn {
 header .utility-nav .business-btn:hover {
   border-color: #2DBE60;
 }
+
+
+/* Register section */
+
+
+.register-section {
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.register-section .container {
+  max-width: 1160px;
+  height: 600px;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register-section .content {
+  flex: 4 1;
+}
+
+.register-section .content h1 {
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 70px;
+}
+
+.register-section .content h5 {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.register-section .divider-wrapper {
+  flex: 1 1;
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.register-section .divider-wrapper .divider {
+  width: 1px;
+  background-color: #f3f3f3;
+  margin: 50px 0;
+}
+
+.register-section .sign-up{
+  flex: 4 1;
+  display: flex;
+  justify-content: center;
+}
+
+.register-section .sign-up .sign-up-inner {
+  width: 360px;
+}
+
+
+/* info */
+
+
+.info {
+  max-width: 1200px;
+  margin: 0 40px;
+}
+
+.info .image img {
+  display: block;
+  width: 456px;
+  height: 456px;
+}
+
+.info ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.info .image-left {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.info .image-right {
+  flex-direction: row-reverse;
+}
+
+.info .image-info {
+  max-width: 380px;
+  margin-left: 56px;
+  font-weight: 300;
+}
+
+.info .image-info h1 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.info .image-info p {
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+.info .image-info a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #2DBE60;
+}
+
+.info .image-info a:hover {
+  color: #2DBE60;
+}
+
+https://evernote.com/c/assets/marketing/home/benefit-2.png
