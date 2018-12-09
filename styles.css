@@ -142,16 +142,113 @@ header .utility-nav .business-btn:hover {
   margin: 50px 0;
 }
 
-.register-section .sign-up{
+.register-section .sign-up-section{
   flex: 4 1;
   display: flex;
   justify-content: center;
 }
 
-.register-section .sign-up .sign-up-inner {
-  width: 360px;
+/*  */
+
+.sign-up-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
+.sign-up {
+  width: 400px;
+}
+
+.sign-up .title {
+  font-size: 30px;
+}
+
+.sign-up .google {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background: url("https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png") no-repeat;
+  background-size: 20px 20px;
+  background-position: left 20px center;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 0;
+  margin-top: 20px;
+  border: 1px solid #aaa;
+  border-radius: 30px;
+}
+
+.sign-up .google:hover {
+  border-color: #2DBE60;
+}
+
+.sign-up .or-wrapper {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.sign-up .or-wrapper .line {
+  flex: 1 1;
+  height: 1px;
+  background-color: #bbb;
+}
+
+.sign-up .or-wrapper .or {
+  color: #4f4f4f;
+  margin: 0 10px;
+}
+
+.sign-up .last-in {
+  margin-top: 18px;
+}
+
+.sign-up .text-input {
+  width: 100%;
+  padding: 14px 10px;
+  border-radius: 4px;
+  background-color: #eee;
+  border: none;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.sign-up .text-input::placeholder {
+  color: #555;
+}
+
+.sign-up .btn {
+  border: 2px solid #000;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sign-up .green {
+  margin-bottom: 0;
+  border-color: #2DBE60;
+  background-color: #2DBE60;
+  color: #fff;
+}
+
+.sign-up .green:hover {
+  cursor: pointer;
+  border-color: #2D8860;
+  background-color: #2D8860;
+}
+
+.sign-up .basic:hover {
+  border-color: #2DBE60;
+  cursor: pointer;
+  color: #2DBE60;
+}
 
 /* info */
 
